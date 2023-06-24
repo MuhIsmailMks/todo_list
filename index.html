@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="img/todoLogo.png"> 
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>to-do list</title>
+</head>
+<body> 
+    
+    <div class="container">
+
+        <div class="add_list d-flex">
+            <input type="text" maxlength="20">
+            <div class="add_btn d-flex-center">
+                <img src="img/add.png" alt="">
+            </div>
+        </div>
+
+        <div class="total_task d-flex">
+            <p class="task-left">0 Task Lefts</p>
+            <div class="line"></div>
+            <p class="task-completed">0 Task Completed</p>
+        </div>
+
+        <div class="lists_container">
+
+            
+            <div class="list d-flex">
+                <div class="setting d-flex-center">
+                    <img src="img/settings.png" alt="" class="setting_list">
+
+                    <div class="setting_container d-flex">
+
+                        <div class="delete d-flex-center">
+                            <div class="image d-flex-center"> 
+                                <img src="img/deleteIcon.png" alt=""  >
+                            </div>
+                            <p class="d-flex-center">Delete</p>
+                            <div class="btn_set" id="delete"></div>
+                        </div>
+
+                        <div class="line "></div>
+
+                        <div class="edit">
+                            <div class="image d-flex-center"> 
+                               <img src="img/editIcon.png" alt="">
+                            </div>
+                            <p class="d-flex-center">Edit</p>
+                            <div class="btn_set" id="edit"></div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <p class="text_list">karate</p>
+                <div class="tick d-flex-center"></div>
+                
+                <div class="edit_list_containers d-flex">
+                    <input type="text" maxlength="30">
+                    <img src="img/doneEdit.png" alt="doneEdit" class="done_edit" id="done_edit">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+ 
+
+    <script src="index.js"></script>
+</body>
+</html>

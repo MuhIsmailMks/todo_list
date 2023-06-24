@@ -1,0 +1,101 @@
+
+
+/* 1200px */
+@media screen and (max-width:1200px){
+    .container{
+        width: 800px;  
+        max-width: 80%;
+        height: 900px;
+    } 
+       /* total_task */
+    .total_task{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .total_task p:nth-child(1),
+    .total_task p:nth-child(3){
+        width: 49%; 
+    }
+}
+/* 500 px */
+@media screen and (max-width:500px){
+    body{ 
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container{
+        max-width: 90%;
+        height: 600px;
+    }
+
+    /* add list */
+    .add_list{ 
+        height: 45px; 
+    }
+
+    .add_list input{ 
+    
+        padding: 0 1.5rem 0 1.4rem ;
+    
+        font-size: .8rem;
+    }
+
+
+
+    /* list */
+    .list{  
+        height: 45px; 
+        margin-bottom: 1rem;
+    }
+
+    .list p{
+        font-size: .8rem;
+    }
+
+    .tick{
+        width: 20px;
+        height: 20px;
+    }
+ 
+    /* setting */
+    .setting{
+        width: 45px; 
+    }
+
+    .setting_container{
+        width: 130px;
+    }
+
+    .setting_container .delete p,
+    .setting_container .edit p{ 
+        font-size: .5rem; 
+    
+        width: 100%;
+    }
+
+    /* edit list */
+    .edit_list_container{
+        max-width: 90%;
+    }
+
+    .edit_list_container h2{
+        font-size: 1.4rem;
+    }
+
+    .close_btn{ 
+        height: 35px;
+        width: 35px;
+    }
+
+    .edit_list_container.active .done_alert{
+        padding-top: 40%;
+    }
+
+    .edit_list_input input{
+        font-size: .9rem; 
+    }
+    
+}
+ 
